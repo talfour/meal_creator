@@ -1,0 +1,9 @@
+testtt.py
+testuje.py
+.pytest_cache
+.vscode
+__pycache__/
+__pycache__/dbcon.cpython-37.pyc
+__pycache__/dbcon.cpython-38.pyc
+__pycache__/meals.cpython-37.pyc
+__pycache__/meals.cpython-38.pyc

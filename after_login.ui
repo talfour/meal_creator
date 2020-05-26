@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_10">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_16">
+      <item row="0" column="0">
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="tabPosition">
+         <enum>QTabWidget::North</enum>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Rounded</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Your day</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_25">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_18">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_23">
+             <item row="1" column="0">
+              <widget class="QFrame" name="frame_19">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_24">
+                <item row="2" column="0" alignment="Qt::AlignLeft">
+                 <widget class="QLabel" name="yourdayCarbohydrates">
+                  <property name="text">
+                   <string>Carbohydrates:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignLeft">
+                 <widget class="QLabel" name="yourdayMaxCalories">
+                  <property name="text">
+                   <string>Max calories:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignLeft">
+                 <widget class="QLabel" name="yourdayProteins">
+                  <property name="text">
+                   <string>Proteins:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignLeft">
+                 <widget class="QLabel" name="yourdayFats">
+                  <property name="text">
+                   <string>Fats:</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QFrame" name="frame_21">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_28">
+                <property name="spacing">
+                 <number>9</number>
+                </property>
+                <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QComboBox" name="choosenDay">
+                  <item>
+                   <property name="text">
+                    <string>Monday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Tuesday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Wednesday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Thursday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Friday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Saturday</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Sunday</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QPushButton" name="checkDayPlan">
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Change meals</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QLabel" name="yourdayUsername">
+               <property name="font">
+                <font>
+                 <family>Verdana</family>
+                 <pointsize>12</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>User Name</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QFrame" name="frame_22">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_29">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_23">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_30">
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="mondayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="mondayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="mondayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="mondayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="mondayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="mondayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label">
+                  <property name="text">
+                   <string>Monday</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QFrame" name="frame_24">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_31">
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="tuesdayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="tuesdayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="tuesdayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="tuesdayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="tuesdayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label_5">
+                  <property name="text">
+                   <string>Tuesday</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="tuesdayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QFrame" name="frame_25">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_32">
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="wednesdayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="wednesdayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label_7">
+                  <property name="text">
+                   <string>Wednesday</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="wednesdayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="wednesdayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="wednesdayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="wednesdayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QFrame" name="frame_26">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_33">
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label_9">
+                  <property name="text">
+                   <string>Thursday</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="thursdayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="thursdayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="thursdayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="thursdayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="thursdayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="thursdayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QFrame" name="frame_27">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_34">
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label_10">
+                  <property name="text">
+                   <string>Friday</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="fridayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="fridayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="fridayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="fridayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="fridayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="fridayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="5">
+              <widget class="QFrame" name="frame_28">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_35">
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="saturdayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label_11">
+                  <property name="text">
+                   <string>Saturday</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="saturdayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="saturdayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="saturdayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="saturdayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="saturdayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="6">
+              <widget class="QFrame" name="frame_29">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_36">
+                <item row="3" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="sundayMealThree">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="sundayMealFour">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="sundayTotal">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="sundayMealOne">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="sundayMealTwo">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label_12">
+                  <property name="text">
+                   <string>Sunday</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="sundayMealFive">
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>Random meal</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_2">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="3" column="1" alignment="Qt::AlignHCenter">
+              <widget class="QPushButton" name="randomAcceptButton">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By pressing this button you can change Last time prepared date on today date&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="whatsThis">
+                <string/>
+               </property>
+               <property name="accessibleDescription">
+                <string/>
+               </property>
+               <property name="text">
+                <string>Accept that meal</string>
+               </property>
+               <property name="shortcut">
+                <string notr="true"/>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QPushButton" name="randomRandomizeButton">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Get another random meal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="text">
+                <string>Randomize meal</string>
+               </property>
+               <property name="autoDefault">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+              <widget class="QLabel" name="randomMealName">
+               <property name="font">
+                <font>
+                 <family>Verdana</family>
+                 <pointsize>12</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Meal Name</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QTableWidget" name="randomListIngredients">
+                 <property name="gridStyle">
+                  <enum>Qt::DotLine</enum>
+                 </property>
+                 <property name="sortingEnabled">
+                  <bool>true</bool>
+                 </property>
+                 <attribute name="horizontalHeaderDefaultSectionSize">
+                  <number>231</number>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Ingredient</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Quantity</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="1">
+              <widget class="QFrame" name="frame_3">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_5">
+                <item row="0" column="0">
+                 <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0">
+                  <property name="spacing">
+                   <number>25</number>
+                  </property>
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetDefaultConstraint</enum>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="randomLastTimeUsed">
+                    <property name="text">
+                     <string>Last time prepared:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="randomProteinsCarbsFat">
+                    <property name="text">
+                     <string>Proteins, Carbs, Fat:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="randomPrepareTime">
+                    <property name="text">
+                     <string>Prepare time:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="randomCalories">
+                    <property name="text">
+                     <string>Calories:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPlainTextEdit" name="randomRecipe"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>Search for recipe based on your products</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_4">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_6">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_8">
+                <item row="0" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_20">
+                  <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                   <widget class="QLabel" name="label_6">
+                    <property name="maximumSize">
+                     <size>
+                      <width>65</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Ingredient:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignLeft">
+                   <widget class="QComboBox" name="searchNewProduct">
+                    <property name="minimumSize">
+                     <size>
+                      <width>250</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+                   <widget class="QPushButton" name="searchAdd">
+                    <property name="maximumSize">
+                     <size>
+                      <width>80</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Add</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="1" rowspan="2">
+              <widget class="QFrame" name="frame_7">
+               <property name="minimumSize">
+                <size>
+                 <width>500</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_9">
+                <item row="0" column="0">
+                 <layout class="QVBoxLayout" name="verticalLayout">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_14">
+                    <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                     <widget class="QLabel" name="label_3">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>Choices:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QComboBox" name="searchChoicesMeal">
+                      <property name="minimumSize">
+                       <size>
+                        <width>350</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="sizeAdjustPolicy">
+                       <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_19">
+                    <item>
+                     <widget class="QTableWidget" name="searchProducts">
+                      <property name="gridStyle">
+                       <enum>Qt::DotLine</enum>
+                      </property>
+                      <property name="sortingEnabled">
+                       <bool>true</bool>
+                      </property>
+                      <attribute name="horizontalHeaderCascadingSectionResizes">
+                       <bool>false</bool>
+                      </attribute>
+                      <attribute name="horizontalHeaderDefaultSectionSize">
+                       <number>230</number>
+                      </attribute>
+                      <column>
+                       <property name="text">
+                        <string>Ingredient</string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>Quantity</string>
+                       </property>
+                      </column>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item alignment="Qt::AlignVCenter">
+                   <widget class="QPlainTextEdit" name="searchReceipe">
+                    <property name="plainText">
+                     <string>Recipe</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="searchProteinsCarbsFats">
+                    <property name="text">
+                     <string>Proteins, Carbs, Fats:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="searchPrepareTime">
+                    <property name="text">
+                     <string>Prepare time:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                   <widget class="QLabel" name="searchKcal">
+                    <property name="text">
+                     <string>Kcal</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QFrame" name="frame_5">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_7">
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_8">
+                  <property name="text">
+                   <string>Your Ingredients:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QListWidget" name="searchList"/>
+                </item>
+                <item row="2" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QPushButton" name="searchDelete">
+                  <property name="text">
+                   <string>Delete</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QPushButton" name="searchGenerateMeal">
+                  <property name="text">
+                   <string>Generate meal</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <attribute name="title">
+          <string>Products list</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_26">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_10">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_13">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_8">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_11">
+                <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QLabel" name="label_34">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Products list (each 100g)</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QTableWidget" name="tableFood">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="cursor" stdset="0">
+                   <cursorShape>ArrowCursor</cursorShape>
+                  </property>
+                  <property name="autoScrollMargin">
+                   <number>16</number>
+                  </property>
+                  <property name="gridStyle">
+                   <enum>Qt::DashLine</enum>
+                  </property>
+                  <property name="sortingEnabled">
+                   <bool>true</bool>
+                  </property>
+                  <attribute name="horizontalHeaderDefaultSectionSize">
+                   <number>80</number>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>ID</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Name</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Category</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Energy</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Protein</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Carbohydrate</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Fat</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QFrame" name="frame_9">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>350</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_12">
+                <item row="5" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QPushButton" name="addProductButton">
+                  <property name="text">
+                   <string>Add product</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" alignment="Qt::AlignBottom">
+                 <widget class="QLabel" name="label_16">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Add product</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QFrame" name="frame_20">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_27">
+                   <item row="1" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_21">
+                       <property name="text">
+                        <string>Product name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLineEdit" name="foodNameText">
+                       <property name="minimumSize">
+                        <size>
+                         <width>220</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="3" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout">
+                     <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_33">
+                       <property name="text">
+                        <string>Calories:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLineEdit" name="caloriesText">
+                       <property name="minimumSize">
+                        <size>
+                         <width>220</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="4" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                     <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_22">
+                       <property name="text">
+                        <string>Proteins:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLineEdit" name="proteinsText">
+                       <property name="minimumSize">
+                        <size>
+                         <width>220</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="5" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_4">
+                     <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_23">
+                       <property name="text">
+                        <string>Carbohydrates:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLineEdit" name="carbohydratesText">
+                       <property name="minimumSize">
+                        <size>
+                         <width>220</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="6" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                     <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_25">
+                       <property name="text">
+                        <string>Fat:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLineEdit" name="fatText">
+                       <property name="minimumSize">
+                        <size>
+                         <width>220</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="2" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_13">
+                     <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_35">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>16777215</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string>Category:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QComboBox" name="categoryComboBox">
+                       <property name="minimumSize">
+                        <size>
+                         <width>220</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="6" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QPushButton" name="deleteProductButton">
+                  <property name="toolTip">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To delete ingredient please choose ingredient ID from the table.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="whatsThis">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="text">
+                   <string>Delete product</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>Meals</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_11">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_14">
+             <item row="0" column="1">
+              <widget class="QFrame" name="frame_13">
+               <property name="minimumSize">
+                <size>
+                 <width>200</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_17">
+                <item row="1" column="0">
+                 <widget class="QFrame" name="frame_14">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>390</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_18">
+                   <item row="0" column="0">
+                    <layout class="QVBoxLayout" name="verticalLayout_3">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_6">
+                       <property name="spacing">
+                        <number>14</number>
+                       </property>
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_17">
+                         <property name="text">
+                          <string>Meal name:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                        <widget class="QLineEdit" name="mealsMealName">
+                         <property name="minimumSize">
+                          <size>
+                           <width>280</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer_6">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_7">
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_18">
+                         <property name="text">
+                          <string>Ingredient: </string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QComboBox" name="mealsIngredients">
+                         <property name="minimumSize">
+                          <size>
+                           <width>280</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_4">
+                         <property name="text">
+                          <string>Quantity (grams):</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLineEdit" name="mealsAmount">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>1000</width>
+                           <height>1000</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+                        <widget class="QPushButton" name="mealsAddIngredient">
+                         <property name="maximumSize">
+                          <size>
+                           <width>30</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>Add</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <widget class="QTableWidget" name="mealsIngredientsList">
+                       <property name="sortingEnabled">
+                        <bool>true</bool>
+                       </property>
+                       <attribute name="horizontalHeaderDefaultSectionSize">
+                        <number>308</number>
+                       </attribute>
+                       <column>
+                        <property name="text">
+                         <string>Ingredient</string>
+                        </property>
+                       </column>
+                       <column>
+                        <property name="text">
+                         <string>Quantity</string>
+                        </property>
+                       </column>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QPushButton" name="mealsDeleteIngredient">
+                       <property name="text">
+                        <string>Delete ingredient</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_18">
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_2">
+                         <property name="text">
+                          <string>Receipe</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPlainTextEdit" name="mealsReceipe"/>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_11">
+                       <property name="spacing">
+                        <number>14</number>
+                       </property>
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_26">
+                         <property name="text">
+                          <string>Prepare time:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLineEdit" name="mealsPrepareTime">
+                         <property name="minimumSize">
+                          <size>
+                           <width>220</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer_3">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QPushButton" name="mealsAddMealBtn">
+                       <property name="text">
+                        <string>Add meal</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                 <widget class="QLabel" name="label_15">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Add new meal</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_12">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_15">
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QListWidget" name="mealsList"/>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_6">
+         <attribute name="title">
+          <string>Edit User info</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_21">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_15">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_20">
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_16">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_19">
+                <item row="1" column="1">
+                 <layout class="QVBoxLayout" name="verticalLayout_4">
+                  <item>
+                   <widget class="QFrame" name="frame_17">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>380</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_22">
+                     <item row="1" column="0">
+                      <layout class="QHBoxLayout" name="horizontalLayout_16">
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_31">
+                         <property name="text">
+                          <string>Age:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+                        <widget class="QLineEdit" name="userAge"/>
+                       </item>
+                      </layout>
+                     </item>
+                     <item row="0" column="0">
+                      <layout class="QHBoxLayout" name="horizontalLayout_15">
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_32">
+                         <property name="text">
+                          <string>Weight:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+                        <widget class="QLineEdit" name="userWeight">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item row="4" column="0">
+                      <spacer name="verticalSpacer_6">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item row="2" column="0">
+                      <layout class="QHBoxLayout" name="horizontalLayout_17">
+                       <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+                        <widget class="QLabel" name="label_29">
+                         <property name="text">
+                          <string>Target:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+                        <widget class="QComboBox" name="userTarget">
+                         <property name="minimumSize">
+                          <size>
+                           <width>135</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>reduction</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>keep weight</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>mass</string>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item row="3" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QPushButton" name="userApplyBtn">
+                       <property name="text">
+                        <string>Apply</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item row="1" column="0">
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="1" column="2">
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>checkDayPlan</tabstop>
+  <tabstop>randomRandomizeButton</tabstop>
+  <tabstop>randomAcceptButton</tabstop>
+  <tabstop>randomListIngredients</tabstop>
+  <tabstop>randomRecipe</tabstop>
+  <tabstop>searchNewProduct</tabstop>
+  <tabstop>searchAdd</tabstop>
+  <tabstop>searchList</tabstop>
+  <tabstop>searchDelete</tabstop>
+  <tabstop>searchGenerateMeal</tabstop>
+  <tabstop>searchChoicesMeal</tabstop>
+  <tabstop>searchProducts</tabstop>
+  <tabstop>searchReceipe</tabstop>
+  <tabstop>tableFood</tabstop>
+  <tabstop>foodNameText</tabstop>
+  <tabstop>caloriesText</tabstop>
+  <tabstop>proteinsText</tabstop>
+  <tabstop>carbohydratesText</tabstop>
+  <tabstop>fatText</tabstop>
+  <tabstop>addProductButton</tabstop>
+  <tabstop>mealsMealName</tabstop>
+  <tabstop>mealsIngredients</tabstop>
+  <tabstop>mealsAmount</tabstop>
+  <tabstop>mealsAddIngredient</tabstop>
+  <tabstop>mealsDeleteIngredient</tabstop>
+  <tabstop>mealsReceipe</tabstop>
+  <tabstop>mealsAddMealBtn</tabstop>
+  <tabstop>userWeight</tabstop>
+  <tabstop>userAge</tabstop>
+  <tabstop>userTarget</tabstop>
+  <tabstop>userApplyBtn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
