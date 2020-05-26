@@ -10,3 +10,5 @@ Options available:
 
 TODO:
 - User is able to choose ingredient quantity for each meal
+- Refactor code
+- Split classes
